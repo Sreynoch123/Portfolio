@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Batak&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.mt{
+    margin-top: 5rem !important;
+}
+.tittle{
+    font-family: 'Noto Sans Batak', Courier, monospace;
+}
+.small img{
+    width: 100px;
+    height: 100px;
+}
+.pic_banner{
+    width:400px;
+    height: 400px;
+}
+/* Card style */
+.project-card{
+    transition:tranform 0.3 ease,box shadow 0.3 ease ;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.project-card:hover{
+    transform:scale(1.02) ;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+
+}
+.tittle-card h1{
+    font-size: 1.5rem;
+    color: #333;
+    margin-top:10px;
+}
+.tittle-card img{
+    border-radius: 10px;
+    max-height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
